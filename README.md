@@ -1,19 +1,20 @@
-# Aaron's dotfiles (stolen from [Mathias’s](https://github.com/mathiasbynens/dotfiles)!)
+# Aaron's dotfiles (stolen from [Mathias’s](https://github.com/mathiasbynens/dotfiles))!
 
 ## Pre-Installation   
 
-* Command Line Tools for Xcode: 
+### Command Line Tools for Xcode: 
 ```bash
 xcode-select --install
 ```
 * Install [Homebrew](http://brew.sh/#install)
 * Add HD to Desktop using Finder -> Prefrences
 * Install [Sublime](http://www.sublimetext.com/3)
-* Install git 
+* Set up SSH keys for github
+* Install git with brew
 ```bash
 brew install git
 ```
-* Set up SSH keys for github
+
 
 
 ## Installation
@@ -83,10 +84,3 @@ When setting up a new Mac, you may want to install some common [Homebrew](http:/
 ```bash
 ./brew.sh
 ```
-
-## Feedback
-
-Suggestions/improvements use this repo, as this is my personal fork
-[welcome](https://github.com/mathiasbynens/dotfiles/issues)!
-
-
