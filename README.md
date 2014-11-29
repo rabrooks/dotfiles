@@ -84,3 +84,6 @@ When setting up a new Mac, you may want to install some common [Homebrew](http:/
 ```bash
 ./brew.sh
 ```
+### Install Bash 4.
+* Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before
+* running `chsh`.
