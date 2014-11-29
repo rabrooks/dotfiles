@@ -57,5 +57,9 @@ brew install webkit2png
 # installation method.
 brew install node
 
+# Install rbenv and ruby-build
+brew install rbenv
+brew install ruby-build
+
 # Remove outdated versions from the cellar.
 brew cleanup
