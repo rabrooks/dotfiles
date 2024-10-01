@@ -10,5 +10,7 @@ zsh/plugins
 zsh/themes
 zsh/.p10*
 
+*lock.json
+
 
 
