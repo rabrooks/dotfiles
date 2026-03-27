@@ -21,6 +21,9 @@ fi
 # Ghostty symlink
 ln -sf ~/dotfiles/ghostty ~/.config/ghostty
 
+# Starship symlink
+ln -sf ~/dotfiles/starship.toml ~/.config/starship.toml
+
 # Lazygit symlink
 mkdir -p ~/Library/Application\ Support/lazygit
 ln -sf ~/dotfiles/lazygit/config.yaml \
