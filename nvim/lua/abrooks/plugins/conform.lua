@@ -36,7 +36,8 @@ return { -- Autoformat
       yaml = { 'prettier' },
       markdown = { 'prettier' },
       go = { 'goimports', 'gofumpt' },
-      python = { 'isort', 'black' },
+      python = { 'ruff_fix', 'ruff_format' },
+      rust = { 'rustfmt' },
       --
       -- You can use a sub-list to tell conform to run *until* a formatter
       -- is found. This is like saying choose the first avialable formatter

@@ -1,0 +1,8 @@
+Tab      → Move panels
+_        → Focus/unfocus
+[ / ]    → Toggle panel views
+Space    → Stage
+c        → Commit
+b        → Blame
+n / N    → Navigate diff
+Q        → Exit

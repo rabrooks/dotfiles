@@ -1,7 +1,7 @@
 return {
   'nvim-telescope/telescope.nvim',
   event = 'VimEnter',
-  branch = '0.1.x',
+  branch = 'master', -- Use master for Neovim 0.11+ compatibility
   dependencies = {
     'nvim-lua/plenary.nvim',
     {

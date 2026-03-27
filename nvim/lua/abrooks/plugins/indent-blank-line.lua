@@ -13,5 +13,4 @@ return {
     },
   },
   main = 'ibl',
-  opts = {},
 }

@@ -1,0 +1,45 @@
+[user]
+	name = Aaron Brooks
+	email = 3195616+rabrooks@users.noreply.github.com
+	signingkey = DA4AA2081F367421
+[core]
+	editor = vim
+	excludesfile = /Users/aaron.brooks/.gitignore_global
+	pager = delta
+[init]
+	defaultBranch = main
+[push]
+	default = current
+[pull]
+	rebase = true
+[color]
+	ui = auto
+[alias]
+	lg = log --oneline --decorate --all --graph
+	lol = log --pretty=format:'%C(yellow)%h%C(reset) - %C(green)%an%C(reset) - %C(blue)%ar%C(reset) - %s' --graph --decorate --all
+	logs = log --pretty=format:'%h - %an: %s' --abbrev-commit --date=short
+	unstage = reset HEAD --
+	amend = commit --amend --no-edit
+	undo = reset --soft HEAD~1
+	root = rev-parse --show-toplevel
+	last = log -1 --stat
+	fix = checkout -b temp && checkout @{-1} && reset --hard temp && branch -D temp
+[commit]
+	gpgsign = true
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+	navigate = true
+	side-by-side = true
+	line-numbers = true
+	light = false
+	syntax-theme = Catppuccin-mocha
+	minus-style = "syntax #3a1f2b"
+	plus-style = "syntax #1f3a2b"
+	commit-decoration-style = bold
+	file-style = bold
+	hunk-header-style = bold syntax
+[diff]
+	tool = nvimdiff
