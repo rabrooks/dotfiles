@@ -19,7 +19,8 @@ if [[ -n "$TMUX" ]]; then
     export DISABLE_AUTO_TITLE="true"
 fi
 
-eval "$(starship init zsh)"
+# eval "$(starship init zsh)"  # Toggle: uncomment to switch back to Starship
+source ~/.config/zsh/prompt.zsh
 
 # FZF with fd
 source <(fzf --zsh)
